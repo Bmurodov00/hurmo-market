@@ -133,6 +133,9 @@ img {
 
 /* MAIN */
 /* MAIN-NAVIGATION-SECTION */
+main {
+  flex-grow: 1;
+}
 .main-nav-section {
   display: flex;
   align-items: center;
@@ -281,4 +284,129 @@ margin-right: 30px;
 background-color: var(--accent-color);
 border-radius: 10px;
 padding: 20px;
+}
+
+
+/* SITE-FOOTER  */
+footer {
+  background-color: #e2ebf0;
+}
+
+/* FOOTER-SOCIALS-SECTION */
+.footer-social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid #000;
+}
+.footer-socials-header {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.social-media-goto {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer-socials-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 409px;
+}
+.get-on-links {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-social-img {
+  flex-wrap: wrap;
+  display: block;
+}
+
+/* footer-market-section */
+.footer-market {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 64px;
+}
+.footer-market-info {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.main-logo-link {
+}
+.footer-market-info- {
+}
+.footer-market-info-tel {
+  color: #111;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.footer-market-info-tel:hover {
+  color: var(--accent-color);
+}
+.location-mail-icon {
+  margin-right: 5px;
+}
+.footer-market-info-text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-market-info-title {
+}
+.footer-market-info-links {
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.footer-market-info-links:hover {
+  opacity: 0.6;
+}
+.nav-link-button {
+}
+.footer-market-info-button {
+}
+.footer-payment-methods {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 356px;
+  flex-wrap: wrap;
+}
+.payment-links {
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #111;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 18px 14px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  width: 108px;
+  height: 56px;
+}
+.payment-links:nth-child(3n) {
+  margin-right: 0;
+}
+.payment-links:hover {
+  background-color: #a6a6a6;
 }
